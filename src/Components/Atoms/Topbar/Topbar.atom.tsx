@@ -1,13 +1,13 @@
 import { FC } from 'react'
 
-import { TOPBAR_ITEMS } from 'Assets/Texts'
+import { SITE_SECTIONS } from 'Assets/Texts'
 
 import * as Styled from './Topbar.style'
 
 export const TopbarAtom: FC = () => {
   return (
     <Styled.Topbar>
-      {TOPBAR_ITEMS.map((topbarItem) => (
+      {SITE_SECTIONS.map((topbarItem) => (
         <a href={`#${topbarItem.link}`} key={topbarItem.link}>
           {topbarItem.text}
         </a>

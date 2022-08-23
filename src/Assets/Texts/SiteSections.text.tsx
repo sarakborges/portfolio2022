@@ -1,7 +1,10 @@
-export const TOPBAR_ITEMS = [
+import { ContactSection } from 'Components/Molecules'
+
+export const SITE_SECTIONS = [
   {
     text: `Contact`,
     link: 'contact',
+    component: <ContactSection />,
   },
 
   {
