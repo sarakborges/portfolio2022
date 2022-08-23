@@ -1,7 +1,14 @@
 import { FC } from 'react'
 
-import { AppPage } from 'Components/Pages/App'
+import { AppPage } from 'Components/Pages'
+
+import * as Styled from 'Assets/Styles/GlobalStyle'
 
 export const App: FC = () => {
-  return <AppPage />
+  return (
+    <>
+      <Styled.Global />
+      <AppPage />
+    </>
+  )
 }

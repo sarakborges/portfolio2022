@@ -1,13 +1,7 @@
 import { FC } from 'react'
 
-import * as Styled from './App.style'
+import { AppTemplate } from 'Components/Templates'
 
 export const AppPage: FC = () => {
-  return (
-    <>
-      <Styled.Global />
-
-      <div>It was just a prank, bruv</div>
-    </>
-  )
+  return <AppTemplate />
 }
