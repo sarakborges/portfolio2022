@@ -1,10 +1,10 @@
-import { ContactSection } from 'Components/Molecules'
+import { HomeSection } from 'Components/Molecules'
 
 export const SITE_SECTIONS = [
   {
-    text: `Contact`,
-    link: 'contact',
-    component: <ContactSection />,
+    text: `Home`,
+    link: 'home',
+    component: <HomeSection />,
   },
 
   {
@@ -15,10 +15,5 @@ export const SITE_SECTIONS = [
   {
     text: `Past experiences`,
     link: 'experiences',
-  },
-
-  {
-    text: `Skills`,
-    link: 'skills',
   },
 ]

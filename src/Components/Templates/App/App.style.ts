@@ -14,8 +14,9 @@ export const Wrapper = styled.div`
   place-content: center;
   place-items: center;
   flex-flow: column;
-  gap: 32px;
+  gap: 48px;
 
   min-height: calc(100vh - 48px);
+  max-width: 1170px;
   padding: 48px;
 `
