@@ -22,6 +22,5 @@ export const Title = styled.div`
     aspect-ratio: 1;
 
     border-radius: 100%;
-    background-color: var(--light);
   }
 `
